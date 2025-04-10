@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto_Zynergy", "Auto_Zynergy\Auto_Zynergy.csproj", "{980132B9-4986-425B-A5B6-496E3D0973AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{980132B9-4986-425B-A5B6-496E3D0973AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980132B9-4986-425B-A5B6-496E3D0973AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980132B9-4986-425B-A5B6-496E3D0973AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980132B9-4986-425B-A5B6-496E3D0973AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6FD6613-3BCD-4FA2-BB2D-927AEB6A86D4}
+	EndGlobalSection
+EndGlobal
