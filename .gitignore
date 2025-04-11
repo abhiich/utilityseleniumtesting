@@ -1,31 +1,52 @@
-# Ignore log files
-app.log
+# Ignore build output
+bin/
+obj/
 
-# Ignore Python cache files
-__pycache__/
-*.py[cod]
-*.pyo
+# Ignore Visual Studio Code settings (optional)
+.vscode/
 
-# Ignore virtual environment folders
-env/
-venv/
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Byte-compiled / optimized / DLL files
-*.py[cod]
-*$py.class
+# Ignore test results
+TestResult*/ 
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore logs
+*.log
+
+# Ignore NuGet packages (if you're restoring packages on build)
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore SpecFlow generated files (optional, if regenerating automatically)
+*.feature.cs
+
+# Ignore ReSharper files (if using JetBrains tools)
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Mac and Linux system files
+.DS_Store
+*.swp
+*~
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore any zipped or temporary archives
+*.zip
+*.rar
+*.7z
 
 
-# co pilot ignore / test store
-CopilotIndices
-
-.vs/zyn-integration-test/FileContentIndex/7c086d9a-fd3a-4ef0-bc5b-3b1ae5563fee.vsidx
-.vs/slnx.sqlite
-.vs/zyn-integration-test/FileContentIndex/3faca16e-2e00-4437-86da-8727110941a9.vsidx
-.vs/zyn-integration-test/FileContentIndex/71b838cc-0724-4b2c-9be9-b66e3816e506.vsidx
-.vs/zyn-integration-test/FileContentIndex/c940d3bd-6778-4610-9a75-b388d76b6148.vsidx
-.vs/zyn-integration-test/FileContentIndex/fa19e36f-c143-44ca-ab68-3fe9552418c3.vsidx
-.vs/zyn-integration-test/FileContentIndex/cf21dd3b-8b04-4652-9903-4c021b06a032.vsidx
-.vs/ProjectSettings.json
-.vs/slnx.sqlite-journal
-.vs/zyn-integration-test/FileContentIndex/3edcf3e5-247c-4f89-a92d-9b2974592208.vsidx
-.vs/zyn-integration-test/FileContentIndex/7b4f9466-96c2-4401-90c1-29e91b6a6a7b.vsidx
