@@ -50,3 +50,6 @@ _ReSharper*/
 *.7z
 
 
+/.vs/Auto_Zynergy/CopilotIndices/17.13.431.34963
+/.vs/Auto_Zynergy/FileContentIndex
+/.gitignore
